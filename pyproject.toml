@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "group-number-210"
+version = "0.1.0"
+description = ""
+authors = ["Sokolov Yaroslav <yari.sokolov.2004@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
