@@ -1,6 +1,7 @@
 import requests
 
 from os import system
+from sys import platform
 from url import url_site
 
 def main() -> None:
@@ -9,5 +10,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    system("clear")
+    if platform == "linux":
+        system("clear")
+    else:
+        system("cls")
+
     main()
